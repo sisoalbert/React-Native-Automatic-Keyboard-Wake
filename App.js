@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, TextInput } from "react-native";
 import React from "react";
 
 const HomeScreen = () => {
-  const inputRef = React.createRef();
+  const inputRef = React.useRef();
 
   setTimeout(() => inputRef.current.focus(), 100);
   return (
